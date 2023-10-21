@@ -1,0 +1,15 @@
+C:\Users\ODUS\desktop\c#Assignment\chapter2\bin\Debug\net6.0\chapter2.exe
+C:\Users\ODUS\desktop\c#Assignment\chapter2\bin\Debug\net6.0\chapter2.deps.json
+C:\Users\ODUS\desktop\c#Assignment\chapter2\bin\Debug\net6.0\chapter2.runtimeconfig.json
+C:\Users\ODUS\desktop\c#Assignment\chapter2\bin\Debug\net6.0\chapter2.dll
+C:\Users\ODUS\desktop\c#Assignment\chapter2\bin\Debug\net6.0\chapter2.pdb
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.csproj.AssemblyReference.cache
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.AssemblyInfoInputs.cache
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.AssemblyInfo.cs
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.csproj.CoreCompileInputs.cache
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.dll
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\refint\chapter2.dll
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.pdb
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\chapter2.genruntimeconfig.cache
+C:\Users\ODUS\desktop\c#Assignment\chapter2\obj\Debug\net6.0\ref\chapter2.dll
