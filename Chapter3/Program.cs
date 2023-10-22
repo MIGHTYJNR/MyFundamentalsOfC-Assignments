@@ -1,11 +1,30 @@
 ﻿//=====Solutions to Chapter Three Exercises====
+static void Main(string[] args)
+{
+    Question1();
+    Question2();
+    Question3();
+    //Question4();
+    Question5();
+    Question6();
+    Question7();
+    Question8();
+    //Question9();
+    Question10();
+    Question11();
+    Question12();
+    //Question13();
+    Question14();
+    // Question15();
+    //Question16();
+}
 //==1== Write an expression that checks whether an integer is odd or even.
 static void Question1()
 {
     Console.WriteLine("Input an integer");
     int userInput = int.Parse(Console.ReadLine()!);
-    int oddOrEven = userInput % 2;  Console.WriteLine(oddOrEven);
-    if(oddOrEven == 0)
+    int oddOrEven = userInput % 2; Console.WriteLine(oddOrEven);
+    if (oddOrEven == 0)
     {
         Console.WriteLine($"{userInput} is an even number");
     }
@@ -32,7 +51,7 @@ static void Question3()
     int number = int.Parse(Console.ReadLine()!);
     bool isSeven = (number / 100) % 10 == 7 ? true : false;
     Console.WriteLine(isSeven);
-    if(isSeven == true)
+    if (isSeven == true)
     {
         Console.WriteLine($"Third digit of {number} is 7");
     }
@@ -54,7 +73,7 @@ static void Question6()
     int side = Convert.ToInt32(Console.ReadLine());
     Console.Write("Enter Height: ");
     int height = Convert.ToInt32(Console.ReadLine());
-    int perimeterOfRectangle = 2*(side + height), areaOfRectangle = side*height;
+    int perimeterOfRectangle = 2 * (side + height), areaOfRectangle = side * height;
     Console.WriteLine($"Perimeter of rectangle= {perimeterOfRectangle}\nArea of rectangle= {areaOfRectangle}");
 }
 
@@ -74,8 +93,8 @@ static void Question8()
     int x = Convert.ToInt32(Console.ReadLine());
     Console.Write("Enter y: ");
     int y = Convert.ToInt32(Console.ReadLine());
-    bool isInside =((x * x)  + (y * y) <= 5 * 5) ? true : false;
-    if(isInside == true)
+    bool isInside = ((x * x) + (y * y) <= 5 * 5) ? true : false;
+    if (isInside == true)
     {
         Console.WriteLine($"The point ({x},{y}) is within the circle K((0,0),5)");
     }
@@ -122,13 +141,13 @@ static void Question12()
     int mask = 1 >> p;
     bool isBitSetOne = (v & mask) != 0 ? true : false;
     Console.Write(isBitSetOne);
-    if(isBitSetOne == true)
+    if (isBitSetOne == true)
     {
         Console.WriteLine($", The bit at position {p} of number {v} is 1");
     }
 }
 
-    
+
 //==13== 
 //==14== Write a program that checks if a given number n (1 < n < 100) is a prime number (i.e. it is divisible without remainder only to itself and 1).
 static void Question14()
@@ -152,22 +171,34 @@ static void Question14()
     int n = 9;   // The number to check
     int a = 0;   // A counter for the number of factors
 
-    if (n <= 1) {
+    if (n <= 1)
+    {
         Console.WriteLine("{0} is NOT a Prime Number", n);
-    } else if (n == 2) {
+    }
+    else if (n == 2)
+    {
         Console.WriteLine("2 is a Prime Number");
-    } else if (n % 2 == 0) {
+    }
+    else if (n % 2 == 0)
+    {
         Console.WriteLine("{0} is NOT a Prime Number", n);
-    } else {
-        for (int i = 3; i * i <= n; i += 2) {
-            if (n % i == 0) {
+    }
+    else
+    {
+        for (int i = 3; i * i <= n; i += 2)
+        {
+            if (n % i == 0)
+            {
                 a++;  // Increment the counter when 'n' is divisible by 'i'
             }
         }
 
-        if (a == 0) {
+        if (a == 0)
+        {
             Console.WriteLine("{0} is a Prime Number", n);
-        } else {
+        }
+        else
+        {
             Console.WriteLine("{0} is NOT a Prime Number", n);
         }
     }
